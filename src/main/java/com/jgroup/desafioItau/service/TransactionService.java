@@ -5,9 +5,6 @@ import com.jgroup.desafioItau.infrastructure.exceptions.BusinessException;
 import com.jgroup.desafioItau.infrastructure.mapper.TransactionMapper;
 import com.jgroup.desafioItau.infrastructure.model.TransactionModel;
 import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
