@@ -24,6 +24,10 @@ public class TransactionService {
         return transaction;
     }
 
+    public void deleteTransaction() {
+        transactions.clear();
+    }
+
     private void validateTransaction(CreateTransactionRequest transactionDTO) {
 
         if (transactionDTO.valor() < 0) {
